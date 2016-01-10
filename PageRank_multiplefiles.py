@@ -1,3 +1,4 @@
+#encoding=utf-8
 import re
 import sys
 import time
@@ -33,7 +34,7 @@ if __name__ == "__main__":
         print sortData
     tStop = time.time()
     print (str(tStop-tStart)+"s")
-    print webo_data.count()
+    print (webo_data.count()+"筆數")
     sc.stop()
 
 
